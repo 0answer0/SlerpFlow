@@ -14,13 +14,13 @@ ICML 2026 poster page: https://icml.cc/virtual/2026/poster/65935
 
 ## Examples
 
-Source vs. **SlerpFlow (ours)** vs. FireFlow on PIE-Bench edits
-(`step=15, cfg=3.0, inject=2, slerp_t=0.5`):
+Representative reconstruction and editing examples from the paper
+(`step=15, cfg=3.0, inject=2, slerp_t=0.5` for editing):
 
-![editing examples](assets/edit_examples.jpg)
-
-From top to bottom: object replacement (windmill → castle), color
-(red hat → green), background (trees → city), and content (long → short hair).
+| Task | Source | SlerpFlow output |
+|---|---|---|
+| Reconstruction | ![island source](examples/source/island.png) | ![island reconstruction](examples/recon-result/island_slerp_recon.jpg) |
+| Editing: windmill to castle | ![windmill source](examples/source/windmill.png) | ![windmill edit](examples/edit-result/windmill_slerp.jpg) |
 
 ## Setup
 
