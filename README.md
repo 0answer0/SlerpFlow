@@ -52,17 +52,6 @@ python run_slerp_edit.py \
 Pass `--strategy fireflow` to reproduce the baseline, and `--offload` if GPU
 memory is tight.
 
-## Key arguments
-
-| Arg | Default | Meaning |
-|---|---|---|
-| `--strategy` | `slerp` | sampler: `slerp` (ours) or `fireflow` (baseline) |
-| `--slerp_t` | `0.5` | spherical interpolation factor between `v_curr` and `v_next` |
-| `--num_steps` | `15` | ODE steps |
-| `--guidance` | `3.0` | CFG scale for the denoise pass (inversion always uses 1.0) |
-| `--inject` | `2` | number of feature-injection steps for editing |
-| `--offload` | off | move modules to CPU between stages to save VRAM |
-
 ## Layout
 
 ```
