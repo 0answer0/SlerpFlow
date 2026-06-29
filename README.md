@@ -14,8 +14,7 @@ ICML 2026 poster page: https://icml.cc/virtual/2026/poster/65935
 
 ## Examples
 
-Representative reconstruction and editing examples from the paper
-(`step=15, cfg=3.0, inject=2, slerp_t=0.5` for editing):
+Representative reconstruction and editing examples from the paper:
 
 | Task | Source | SlerpFlow output |
 |---|---|---|
