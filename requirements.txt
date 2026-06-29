@@ -1,0 +1,15 @@
+# Python >= 3.10 is required.
+torch>=2.0.0
+torchvision>=0.15.0
+einops>=0.7.0
+fire>=0.6.0
+huggingface-hub>=0.20.0
+safetensors>=0.4.0
+sentencepiece>=0.1.99
+transformers>=4.38.0
+tokenizers>=0.15.0
+protobuf>=4.25.0
+requests>=2.31.0
+invisible-watermark>=0.2.0
+numpy>=1.24.0
+pillow>=10.0.0
