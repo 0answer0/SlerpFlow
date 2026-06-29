@@ -19,7 +19,7 @@ Representative reconstruction and editing examples from the paper:
 | Task | Source | SlerpFlow output |
 |---|---|---|
 | Reconstruction | ![island source](examples/source/island.png) | ![island reconstruction](examples/recon-result/island_slerp_recon.jpg) |
-| Editing: windmill to castle | ![windmill source](examples/source/windmill.png) | ![windmill edit](examples/edit-result/windmill_slerp.jpg) |
+| Editing: mushrooms to flowers | ![mushroom source](examples/source/mushroom.png) | ![mushroom edit](examples/edit-result/mushroom_slerp.jpg) |
 
 ## Setup
 
