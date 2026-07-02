@@ -41,10 +41,10 @@ export AE=/path/to/ae.safetensors
 
 ```bash
 python run_slerp_edit.py \
-    --source_img cat.jpg \
-    --source_prompt "a cat sitting on a sofa" \
-    --target_prompt "a tiger sitting on a sofa" \
-    --output out.jpg \
+    --source_img examples/source/mushroom.png \
+    --source_prompt "mushrooms on a branch in the forest" \
+    --target_prompt "flowers on a branch in the forest" \
+    --output examples/edit-result/mushroom_slerp.jpg \
     --strategy slerp \
     --num_steps 15 --guidance 3.0 --inject 2 --slerp_t 0.5
 ```
